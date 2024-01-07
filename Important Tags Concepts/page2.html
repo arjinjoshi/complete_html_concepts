@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+           <!-- Refresh document every 60 seconds using META tag: -->
+            <meta http-equiv="refresh" content="60">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page2</title>
+
+    <!-- ANOTHER IMPORTANT CONCEPT - FAVICON [COMPLETED]  -->
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+      <!-- SYLING FOR <FIGcaption></FIGcaption> TO LOOK GOOD -->
+      <style>
+        figure {
+          border: 1px #cccccc solid;
+          padding: 4px;
+          margin: auto;
+        }
+
+        figcaption {
+          background-color: black;
+          color: white;
+          font-style: italic;
+          padding: 2px;
+          text-align: center;
+        }
+        </style>
+
+  </head>
+  <body>
+        <h1>Page 2</h1>
+        <a href="index.html">Home</a>
+        <BR></BR>
+
+        <!-- Remaining IMPORTANT Topics  -->
+
+        <!-- FILE TYPE CONCEPT  -->
+        <h1>File type Concept</h1>
+        <label for="avatar">Choose a profile picture:</label>
+
+        <input
+          type="file"
+          id="avatar"
+          name="avatar"
+          accept="image/png, image/jpeg"
+        />
+        <br>
+          <!-- Another one- PLACEHOLDER USE-->
+          <!-- Another one- FORM ACTION : specifies where to send the form-data when a form is submitted. -->
+          <h1>The input placeholder attribute</h1>
+
+        <form action="/action_page.php">
+          <label for="phone">Enter a phone number:</label><br></br>
+          <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br></br>
+          <small>Format: 123-45-678</small><br></br>
+          <input type="submit">
+        </form>
+
+
+        <br>
+              <!-- ANOTHER ONE-MARQUEE TAG  -->
+              <marquee behavior="scroll" direction="up" scrollamount="1">Slow Scrolling</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="12">Little Fast Scrolling</marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="20">Fast Scrolling</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="50">Very Fast Scrolling</marquee>
+        <br>
+        <!-- we can also make blinking text using marquee tag -->
+
+
+      <!--Another one- FOR CALLING - use TEL attribute : To create a link to a telephone number, use tel: inside the href attribute:  -->
+      <p>To create a link to a telephone number, use tel: inside the href attribute:</p>
+
+      <p><a href="tel:+9779865796896">+9779865796896</a></p>
+
+        <BR></BR>
+
+
+            <!-- Use of FIGURE tag and FIGCAPTIONS in HTML  -->
+        <figure>
+          <img src="img/c.JPEG" alt="Picture" style="width:100%">
+          <figcaption>Fig.1 - SURPRISING MY FAMILY IN DHANGADHI</figcaption>
+        </figure>
+
+
+
+        <!-- Use of Cite tag in HTML  -->
+
+        <h1>The cite element</h1>
+
+        <img src="img/IMG_8149.JPG" width="50%" alt="Programming is FUN">
+        <p><cite>PROGRAMMING</cite> is fun.</p>
+
+
+        <!-- Use REFERENCES from w3schools -->
+
+
+
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>
+        <span style="background-color:skyblue ;"> Welcome to CodeHelp</span>
+    </h1>
+    <h1>Contact Us Form</h1>
+    <form action="https://www.thecodehelp.in">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required><br/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required><br/>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" name="contact" placeholder="9865796896" pattern="[0-9]{10}" required><br/>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+            <option value="">--Select your Gender--</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Others</option>
+        </select><br/>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob" required><br/>
+        <label for="rating">Rating</label>
+            <input type="radio" name="rating" value="1" required>
+            <label for="rating">1 </label>
+            <input type="radio" name="rating" value="2" required>
+            <label for="rating">2 </label>
+            <input type="radio" name="rating" value="3" required>
+            <label for="rating">3 </label>
+            <input type="radio" name="rating" value="4" required>
+            <label for="rating">4 </label>
+            <input type="radio" name="rating" value="5" required>
+            <label for="rating">5 </label> <br/>
+        <label for="message">Enter Your Message</label><br/>
+        <textarea name="paragraph_text" cols="50" rows="10" name="message" required></textarea> <br/>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+
+    </form>
+</body>
+</html>
